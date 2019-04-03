@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Railsチームの開発アプリです。
 
-Things you may want to cover:
+開発に参加する手順
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+$ git clone git@github.com:yasasii-team/regulus.git
+$ cd regulus
+$ bundle
+$ rails db:create
+$ rails db:migrate
+$ git checkout -b <new_branch>
+```
+ブランチ名のルール
+https://github.com/yasasii-team/regulus/wiki/%E3%83%96%E3%83%A9%E3%83%B3%E3%83%81%E5%90%8D%E3%81%AEprefix%E4%B8%80%E8%A6%A7
